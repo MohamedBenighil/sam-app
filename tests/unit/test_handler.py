@@ -1,13 +1,12 @@
 import json
 
 import pytest
-
 from hello_world import app
 
 
 @pytest.fixture()
 def apigw_event():
-    """ Generates API GW Event"""
+    """Generates API GW Event"""
 
     return {
         "body": '{ "test": "body"}',
@@ -69,4 +68,4 @@ def test_lambda_handler(apigw_event):
 
     assert ret["statusCode"] == 200
     assert "message" in ret["body"]
-    assert data["message"] == "hello world"
+    assert data["message"] == "hello mohamed"
