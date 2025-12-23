@@ -250,3 +250,7 @@ $RECYCLE.BIN/
 samconfig.toml
 
 target
+
+git remote add origin git@github.com:MohamedBenighil/sam-app.git
+git remote add origin https://github.com/MohamedBenighil/sam-app.git
+
