@@ -12,18 +12,18 @@ on:
 env:
   SAM_TEMPLATE: template.yaml
   TESTING_STACK_NAME: sam-app-dev
-  TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-dev-pipel-PipelineExecutionRole-pBXUJ26xrEyu
-  TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionRo-gxLgzcU9S5vJ
-  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-dev-pipeline-r-artifactsbucket-n8arb6yffbd2
+  TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-dev-pipel-PipelineExecutionRole-LGQFrUUMh3DP
+  TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionRo-IHfTeHETtsCI
+  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-dev-pipeline-r-artifactsbucket-rzobl2jb8q0l
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
   # testing "sam package" and "sam deploy" commands.
   # TESTING_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
   TESTING_REGION: eu-west-1
   PROD_STACK_NAME: sam-app-prod
-  PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-prod-pipe-PipelineExecutionRole-knADj1mdezAz
-  PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-prod--CloudFormationExecutionRo-HLrslwqRNBTI
-  PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-prod-pipeline--artifactsbucket-kjqzwpvrfprh
+  PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-prod-pipe-PipelineExecutionRole-GvcXO4QZiA0p
+  PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::911414174394:role/aws-sam-cli-managed-prod--CloudFormationExecutionRo-JWSBh0MxRCLs
+  PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-prod-pipeline--artifactsbucket-jve0ot0x7ruf
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${PROD_IMAGE_REPOSITORY}" to
   # prod "sam package" and "sam deploy" commands.
